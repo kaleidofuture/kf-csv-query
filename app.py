@@ -317,4 +317,4 @@ else:
     st.info(t("no_file"))
 
 # --- Footer ---
-render_footer(libraries=["DuckDB — in-memory SQL engine", "pandas — CSV parsing and data manipulation", "openpyxl — Excel export"])
+render_footer(libraries=["DuckDB — in-memory SQL engine", "pandas — CSV parsing and data manipulation", "openpyxl — Excel export"], repo_name="kf-csv-query")
