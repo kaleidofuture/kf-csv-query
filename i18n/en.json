@@ -34,5 +34,6 @@
   "chart_y": "Y Axis (numeric)",
   "chart_draw": "Draw Chart",
   "chart_error": "Chart Error",
-  "chart_need_cols": "Chart requires at least 2 columns in the result."
+  "chart_need_cols": "Chart requires at least 2 columns in the result.",
+  "desktop_recommended": "This app is optimized for desktop use"
 }
