@@ -1,3 +1,14 @@
+---
+title: kf-csv-query
+emoji: 🚀
+colorFrom: green
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.44.1
+app_file: app.py
+pinned: false
+---
+
 # KF-CSVQuery
 
 > CSVをアップロードしてSQLで自由に集計。Excelマクロはもう不要。
