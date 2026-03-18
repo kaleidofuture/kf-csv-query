@@ -51,5 +51,6 @@
   "template_load": "テンプレート読み込み（.json）",
   "template_loaded": "テンプレート「{name}」を読み込みました",
   "template_apply": "読み込んだテンプレートを適用",
-  "template_invalid": "無効なテンプレートファイルです"
+  "template_invalid": "無効なテンプレートファイルです",
+  "report_issue": "不具合を報告"
 }
