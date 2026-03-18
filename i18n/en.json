@@ -51,5 +51,6 @@
   "template_load": "Load Template (.json)",
   "template_loaded": "Template \"{name}\" loaded",
   "template_apply": "Apply Loaded Template",
-  "template_invalid": "Invalid template file"
+  "template_invalid": "Invalid template file",
+  "report_issue": "Report an issue"
 }
