@@ -34,5 +34,6 @@
   "chart_y": "Y軸（数値）",
   "chart_draw": "グラフ描画",
   "chart_error": "グラフ描画エラー",
-  "chart_need_cols": "グラフを描画するには、結果に2列以上が必要です。"
+  "chart_need_cols": "グラフを描画するには、結果に2列以上が必要です。",
+  "desktop_recommended": "このアプリはデスクトップでのご利用を推奨しています"
 }
