@@ -115,11 +115,12 @@ if uploaded_file is not None:
                 )
 
             # Build and execute query automatically
+            alias_name = f"{agg_method.lower()}_{agg_col}"
             easy_query = (
-                f'SELECT "{group_col}", {agg_method}("{agg_col}") AS {agg_method.lower()}_{agg_col}\n'
+                f'SELECT "{group_col}", {agg_method}("{agg_col}") AS "{alias_name}"\n'
                 f'FROM data\n'
                 f'GROUP BY "{group_col}"\n'
-                f'ORDER BY {agg_method.lower()}_{agg_col} DESC'
+                f'ORDER BY "{alias_name}" DESC'
             )
 
             with st.expander(t("easy_generated_sql")):
